@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget android-VersionCode="10" id="phone.gap.demo" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Phonegap Demo</name>
+    <description>
+        Phonegap demo all objects
+    </description>
+    <author email="ezipicapp@gmail.com" href="http://ezipicapp.blogspot.com">
+        EziPicApps
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-navigation href="*" />
+    <allow-intent href="*" />
+    <icon src="icon144.png" />
+    <preference name="android-minSdkVersion" value="16" />
+    <preference name="android-targetSdkVersion" value="26" />
+</widget>

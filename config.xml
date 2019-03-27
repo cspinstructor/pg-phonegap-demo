@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget 
+    id="phone.gap.demo" 
+    android-VersionCode = "10"
+    version="1.0.0" 
+    xmlns="http://www.w3.org/ns/widgets" 
+    xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Phonegap Demo</name>
+    <description>
+        Phonegap demo all objects
+    </description>
+    <author email="ezipicapp@gmail.com" href="http://ezipicapp.blogspot.com">
+        EziPicApps
+    </author>
+   
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-navigation href="*" />
+    <allow-intent href="*" />
+    <preference name="android-minSdkVersion" value="16" />
+    <preference name="android-targetSdkVersion" value="26" />
+    <plugin name="cordova-plugin-whitelist" source="npm" spec="~1.2.1" />
+
+    <platform name="android" />
+    <icon src="icon144.png" />
+</widget>
